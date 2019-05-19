@@ -1,0 +1,53 @@
+/* convetions */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.page-nav {
+    margin-top: 75px;
+}
+
+.site-navigation {
+    list-style: none;
+    width: 575px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.head-item {
+    display: inline-block;
+    margin-right: 107px;
+}
+
+.head-item:last-child {
+    margin-right: 0px;
+}
+
+.site-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.site-link:hover,
+.site-link:focus {
+    color: #03a9f4;
+}
+
+.site-item {
+    display: inline-block;
+    margin-right: 60px;
+    width: 420px;
+}
