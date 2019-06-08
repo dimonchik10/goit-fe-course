@@ -11,8 +11,6 @@
     margin: 0 auto;
 }
 
-/* Fonts */
-
 @font-face {
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -41,8 +39,6 @@
     src: url('../shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
 }
 
-/* naver */
-
   .page-nav {
     display: flex;
     justify-content: space-between;
@@ -50,16 +46,12 @@
     font-size: 0;
 }
 
-/* loger */
-
   .logo {
     display: inline-block;
     font-family: 'Wisdom Script';
     font-size: 26px;
     color: #fed136;
 }
-
-/* navigation */
 
   .site-navigation {
     list-style: none;
@@ -93,9 +85,7 @@
     color: #fed136;
 }
 
-/* zagolovok */
-
-.zagolovok {
+.headline {
     font-family: 'Roboto Slab';
     font-size: 40px;
     color: black;
@@ -103,8 +93,6 @@
     padding-bottom: 18px;
     text-transform: uppercase;
 }
-
-/* texter */
 
 .texter {
     font-family: 'Roboto Slab';
@@ -114,15 +102,13 @@
     padding-bottom: 75px;
 }
 
-/* boder deistvia */
-
-.karman {
+.pocket {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.karman__item {
+.pocket__item {
     width: 312px;
 }
 
@@ -146,8 +132,6 @@
     font-size: 14px;
     padding-bottom: 120px;
 }
-
-/* slovobludstvo */
 
 .index {
     height: 676px;
@@ -180,8 +164,6 @@
     top: 130px;
 }
 
-/* buttons */
-
 .pre-footer {
     display: flex;
     justify-content: center;
@@ -213,9 +195,6 @@
     text-transform: uppercase;
 }
 
-
-/* area */
-
 .text-area {
     width: 455px;
     height: 200px;
@@ -233,8 +212,6 @@
     text-transform: uppercase;
 }
 
-/* submit */
-
 .submiter {
     width: 240px;
     height: 65px;
@@ -248,8 +225,6 @@
     text-transform: uppercase;
     color: white;
 }
-
-/* form */
 
 .invalided input:required:invalid,
 .invalided text-area:required:invalid {
