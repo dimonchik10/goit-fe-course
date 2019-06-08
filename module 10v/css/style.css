@@ -1,3 +1,5 @@
+/* convetions */
+
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300,400&display=swap');
 
 .container {
@@ -233,7 +235,7 @@
     color: gray;
 }
 
-.section__title--second{
+.hyper__title{
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     text-align: center;
@@ -241,7 +243,7 @@
     padding-bottom: 25px;
 }
 
-.section__subtitle--second {
+.hyper__subtitle{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -249,7 +251,7 @@
     text-transform: uppercase;
 }
 
-.section__subtitle--second::after {
+.hyper__subtitle::after {
     display: block;
     content: '';
     height: 3px;
@@ -258,7 +260,7 @@
     margin: 42px auto 45px;
 }
 
-.section__text {
+.hyper__subtext {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -268,7 +270,7 @@
     padding-bottom: 95px;
 }
 
-.section__ul {
+.hyper__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -277,18 +279,18 @@
             justify-content: space-between;
 }
 
-.div__img {
+.hyper__img {
     margin-bottom: -4px;
 }
 
-.li__div {
+.hyper__container {
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     position: relative;
 }
 
-.li__div:hover {
+.hyper__container:hover {
     -webkit-box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
             box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
     opacity: 1;
@@ -297,7 +299,7 @@
             transform: translate(-10px, -10px);
 }
 
-.div__hidden--menu {
+.hyper__hidden--menu {
     position: absolute;
     opacity: 0;
     width: 384px;
@@ -313,11 +315,11 @@
     transition: all 500ms ease-in-out;
 }
 
-.li__div:hover .div__hidden--menu {
+.hyper__container:hover .hyper__hidden--menu {
     opacity: 1;
 }
 
-.div__ul {
+.hyper__hidden--list {
     width: 224px;
     margin: 207px auto 0;
     display: -webkit-box;
@@ -328,18 +330,15 @@
             justify-content: center;
 }
 
-.ul__li--item {
-    margin-right: 2px;
-}
-
-.ul__li--link path {
+.hyper__hidden--link path {
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     padding: 15px 20px 15px 23px;
 }
 
-.ul__li--item {
+.hyper__hidden--item {
+    margin-right: 2px;
     width: 55px;
     height: 56px;
     background-color: #fce38a;
@@ -349,15 +348,15 @@
     cursor: pointer;
 }
 
-.ul__li--item:hover {
+.hyper__hidden--item:hover {
     background-color: rgb(243,129,129);
 }
 
-.ul__li--item:hover .ul__li--link path {
+.hyper__hidden--item:hover .ul__li--link path {
     fill: white;
 }
 
-.li__text {
+.hyper__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -366,7 +365,7 @@
     text-transform: uppercase;
 }
 
-.li__text--second {
+.hyper__text--second {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -380,7 +379,7 @@
     position: relative;
 }
 
-.footer__div--holder {
+.bottom__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -389,14 +388,14 @@
             justify-content: space-between;
 }
 
-.div__text--footer {
+.bottom__text--first {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     padding: 25px 0 25px 0;
 }
 
-.div__text--second {
+.bottom__text--second {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -406,11 +405,11 @@
     left: 285px;
 }
 
-.div__container--second {
+.bottom__wrapper--second {
     margin-top: 15px;
 }
 
-.form__input--search {
+.bottom__input--search{
     border: 0.8px solid #adadad;
     padding: 12px;
     font-family: 'Roboto', sans-serif;
@@ -421,7 +420,7 @@
     margin-right: -4px;
 }
 
-.form__input--submit {
+.bottom__input--submit{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 12px 33px;
@@ -435,7 +434,7 @@
     transition: all 500ms ease-in-out;
 }
 
-.form__input--submit:hover {
+.bottom__input--submit:hover {
     background-color: #fce38a;
     color: #f6a6a6;
 }
