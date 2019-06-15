@@ -1,130 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300');
-
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+.color:hover {
+        color:  #6bc2f7;
 }
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    color: #acacac;
-    font-size: 14px;
-}
-
-.menu {
-    list-style: none;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    /*width: 670px; 
-    margin: 0 auto;*/
-}
-
-.navigation {
-    width: 900px;
-    margin: auto;
-}
-
-.menu-item {
-    float: left;
-}
-
-.lifestyle {
-    display: block;
-    margin-left: 313px;
-}
-
-.photodiary {
-    margin-left: 123px;
-    display: block;
-}
-
-.music {
-    margin-left: 103px;
-    display: block;
-}
-
-.travel {
-    margin-left: 95px;
-    display: block;
-}
-
-img {
-    display: block;
-}
-
-section {
-    width: 900px;
-    margin: auto;
-}
-
-.container {
-    width: 900px;
-}
-
-.lifestyle-ssilka {
-    color: #03a9f4;
-}
-main {
+header {
     margin: 0 auto;
-    width: 1200px;
 }
-
-.article {
-    width: 420px;
+.color {
+    float: left;
+    margin-left: 115px;
+    cursor: pointer;
+}
+.menu {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    width: 960px;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+.main {
+    float:left;
+    margin: 0 20px;
+}
+.first {
+    float:left;
+    margin: 0 20px;
+}
+.second {
+    float:left;
+    margin: 0 20px;
+}
+.third {
+    float:left;
+    margin: 0 20px;
+}
+.fourth {
+    float:left;
+    margin: 0 20px;
+}
+.fifth {
+    float:left;
+    margin: 0 20px;
+}
+.menu {
+    margin-bottom: 0;
+}
+.container {
+    width: 960px;
+    text-align: center;
+}
+.list {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+    margin-right: 16px;
+}
+.lifestyle {
+    margin: 35px 0 35px 0;
+    font-size: 15px;
+    color: grey;
+    text-align: left;
+    font-family: Playfair Display;
+}
+.list2 {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+}
+.lifestyle2 {
+    margin: 35px 0 35px 0;
+    font-size: 15px;
+    color: grey;
+    text-align: left;
+    font-family: Playfair Display;
+}
+.title2 {
+    color: grey;
+    text-align: left;
+    font-size: 35px;
+}
+.text2 {
+    display: inline-block;
+    padding: 5px;
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 16px;
+}
+body {
+    text-align: center;
+}
+.container {
+    text-align: center
+}
+.lifestylepng2 {
+    width: 470px;
+}
+#firstmenu {
+    margin-left: 0;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin: 0 auto;
+}
+ul li {
     display: inline-block;
 }
-
-.content-dream, .content-alps, .content-festival, .content-coffee {
-    margin-bottom: 136px;
+.text3 {
+    width: 470px;
+    padding: 5px;
+    margin-right: 0;
 }
-
-.second {
-    margin-left: 56px;
+.button {
+    text-align: center;
+    border-width: 1px;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 164px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Playfair Display;
+    background-color: rgba(15, 67, 34, 0)
 }
-
-
-span {
-    text-transform: uppercase;
-    font-family: 'Ubuntu', serif;
-    font-size: 11px;
-    color: #b4ad9e;
-    margin: 31px 0 28px;
+a {
+    text-decoration: none;
+    color: black;
 }
-
-span {
-    display: block;
+a:active {
+    text-decoration: none;
+    color: black;
 }
-
-h2 {
-    font-family: 'PlayFair', serif;
-    font-size: 25px;
-    color: #626262;
-    margin-bottom: 34px;
+a:hover {
+    text-decoration: none;
+    color: black;
 }
-
-p {
-    font-family: 'PlayFair', serif;
-    font-size: 11px;
-    color: #626262;
+.container {
+    width: 960px;
+    margin: 0 auto;
 }
-.submit {
-    display: block;
-} 
-
-.submit {
-    padding: 21px 22px;
-    margin: 54px 70px;
-    background-color: #ffffff;
-    border: 1px solid;
-    font-family: 'PlayFair', serif;
-    font-size: 17px;
-    margin: auto;
-} 
+.section {
+    font-size: 0;
+}
