@@ -1,89 +1,116 @@
-/* convetions */
-
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+.color:hover {
+        color:  #6bc2f7;
 }
-
+header {
+    margin: 0 auto;
+}
+.color {
+    float: left;
+    margin-left: 115px;
+    cursor: pointer;
+}
+.menu {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    width: 960px;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+.main {
+    float:left;
+    margin: 0 20px;
+}
+.first {
+    float:left;
+    margin: 0 20px;
+}
+.second {
+    float:left;
+    margin: 0 20px;
+}
+.third {
+    float:left;
+    margin: 0 20px;
+}
+.fourth {
+    float:left;
+    margin: 0 20px;
+}
+.fifth {
+    float:left;
+    margin: 0 20px;
+}
+.menu {
+    margin-bottom: 0;
+}
 .container {
-    width: 900px;
+    width: 960px;
+    text-align: center;
+}
+.list {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+    margin-right: 16px;
+}
+.lifestyle {
+    margin: 35px 0 35px 0;
+    font-size: 15px;
+    color: grey;
+    text-align: left;
+    font-family: Playfair Display;
+}
+.list2 {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+}
+.lifestyle2 {
+    margin: 35px 0 35px 0;
+    font-size: 15px;
+    color: grey;
+    text-align: left;
+    font-family: Playfair Display;
+}
+.title2 {
+    color: grey;
+    text-align: left;
+    font-size: 35px;
+}
+.text2 {
+    display: inline-block;
+    padding: 5px;
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 16px;
+}
+body {
+    text-align: center;
+}
+.container {
+    text-align: center
+}
+.lifestylepng2 {
+    width: 470px;
+}
+#firstmenu {
+    margin-left: 0;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
     margin: 0 auto;
 }
-
-.page-nav {
-    margin-top: 75px;
-}
-
-.site-navigation {
-    list-style: none;
-    width: 575px;
-    margin: 0 auto;
-    font-size: 0;
-    
-}
-
-.head-item {
+ul li {
     display: inline-block;
-    margin-right: 107px;
 }
-
-.head-item:last-child {
-    margin-right: 0px;
+.text3 {
+    width: 470px;
+    padding: 5px;
+    margin-right: 0;
 }
-
-.site-link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #626262;
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-}
-
-.site-link:hover,
-.site-link:focus {
-    color: #03a9f4;
-}
-
-.site-item {
-    display: inline-block;
-    margin-right: 60px;
-}
-
-.features-list-item:nth-child(2n) {
-    margin-right: 0px;
-}
-
-.features-list-item {
-    width: 420px; 
-    display: inline-block;
-    margin: 30px;
-    margin-bottom: 132px;
-}
-
-.features-list {
-    margin: 0;
-    padding: 0;
-}
-
-.features-list-item img {
-    margin-bottom: 31px;
-}
-
-.features-list-item p {
-    margin-bottom: 12px;
-}
-
-.site-navigation {
-    margin-bottom: 104px;
-}
-
-.page-nav {
-    margin-top:75px;
-}
-
 .button {
     text-align: center;
     border-width: 1px;
@@ -95,11 +122,24 @@
     cursor: pointer;
     font-size: 20px;
     font-family: Playfair Display;
-    margin-bottom: 15px;
+    background-color: rgba(15, 67, 34, 0)
 }
-
-.features-list {
-    width: 70%;
+a {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 960px;
     margin: 0 auto;
-} 
-
+}
+.section {
+    font-size: 0;
+}
